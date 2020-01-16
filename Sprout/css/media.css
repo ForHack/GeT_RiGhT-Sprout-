@@ -1,0 +1,59 @@
+@media (max-width: 	991px) {
+	.burger {
+		display: block;
+	}
+	.header__top .list__box {
+		position: absolute;
+		left: 0;
+		display: none;
+		top: 100%;
+		height: auto;
+		padding: 0 15px 0 15px;
+		z-index: ;
+		width: 100%;
+	}
+	.header__top ul {
+		display: block;
+		background-color: var(--blue);
+		margin-right: 0;
+	}
+	nav ul a:before {
+		left: 0;
+	}
+	.form__box {
+		flex-wrap: wrap;
+	}
+	.form__fields, .form__contacts, .form__item {
+		width: 100%;
+	}
+	.form__contacts {
+		margin-top: 15px;
+	}
+}
+@media (max-width:  768px) {
+	section {
+		padding: 60px 0;
+	}
+	.optimization__img, .quality__img {
+		margin: 10px 0;
+	}
+	.optimization__content, .optimization__img, .quality__content, .quality__img, .features__table-item {
+		width: 100%;
+		text-align: center;
+	}
+	.optimization .flex, .quality .flex, .pricing__box, .team__box, .companies__box {
+		flex-wrap: wrap;
+	}
+	.companies__box-item {
+		margin: 0 auto;
+	}
+	.pricing__box-item, .team__box-item {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 540px) {
+	.header__top .btn {
+		display: none;
+	}
+}
